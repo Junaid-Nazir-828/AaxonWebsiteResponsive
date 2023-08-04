@@ -1,0 +1,21 @@
+background: #F2B243;
+width: Hug (749px)
+height: Hug (61px)
+gap: 55px
+font-family: Inter;
+font-size: 57px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0.02em;
+text-align: left;
+
+box-shadow: 0px 4px 4px 0px #00000040;
+background: #FCFCFC;
+
+background: linear-gradient(0deg, #0C0B08, #0C0B08),
+linear-gradient(0deg, #F2B243, #F2B243);
+
+
+
+
+
