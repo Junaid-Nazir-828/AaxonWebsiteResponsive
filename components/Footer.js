@@ -3,7 +3,7 @@ export default function Footer() {
         <section className="">
             <div className="bg-[#343434] bg-footerBg bg-no-repeat">                
                 <div className="flex flex-wrap pt-10 justify-center gap-x-16">
-                    <div className="mx-8 mb-12">                                                
+                    <div className="mx-2 mb-12">                                                
                         <div className="pt-12 md:w-[325px] w-40">
                             <img src="AaxonLogoTransparent.png"></img>
                         </div>
@@ -36,7 +36,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div className="mx-8 mb-12">
+                    <div className="mx-2 mb-12">
                         <div className="font-semibold pt-12 md:text-[26px] text-[20px] leading-[31.47px] tracking-[0.02em] text-[#F2B243]">
                             <p>OFFICE</p>
                         </div>
@@ -56,7 +56,7 @@ export default function Footer() {
                             <div className="bg-[#91928E] h-[2px] w-full mt-2"></div>                            
                         </div>
                     </div>
-                    <div className="md:w-[445px] md:h-[431px] w-[300px] h-[300px] bg-gray-100 mb-8 mx-8"></div>
+                    <div className="md:w-[445px] md:h-[431px] w-[300px] h-[300px] bg-gray-100 mb-8 mx-2"></div>
                 </div>
             </div>
         </section>
