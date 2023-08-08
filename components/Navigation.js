@@ -24,21 +24,6 @@ export const Navigation = () => {
         setShowDiv((prevShowDiv) => !prevShowDiv);
     };
 
-    // const scroll2El = elID => {
-    //     window.scrollTo({
-    //       top: document.getElementById(elID).offsetTop - 60,
-    //       behavior: 'smooth',
-    //     });
-    //   };
-    
-    // const onBtnClick = (e) => {
-    //     e.preventDefault();
-    //     const goto = e.target.getAttribute('goto');
-    //     setTimeout(() => {
-    //       scroll2El(goto);
-    //     }, 100);
-    //   }
-
     return (
         <>
             <nav className="flex items-center flex-wrap p-3 ">
@@ -78,7 +63,7 @@ export const Navigation = () => {
                                 </a>
                             </Link>
                             <button
-                                className="font-medium bg-[#F2B243] lg:text-[24px] lg:w-28 lg:h-9 rounded px-2 py-1 mx-[6px] my-1 lg:py-0 lg:px-4 shadow-[4px_4px_6px_0px_#00000017]"
+                                className="font-medium bg-[#F2B243] lg:text-[24px] lg:w-[124px] lg:h-12 rounded px-3 py-2 mx-[6px] my-1 lg:py-0 lg:px-4 shadow-[4px_4px_6px_0px_#00000017]"
                                 href="/">
                                 Contact
                             </button>
