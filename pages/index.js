@@ -1,11 +1,10 @@
 // import Layout from "@/components/Layout"
 // import Nav from "@/components/Navbar"
-import Nav from "@/components/Nav"
+import { Navigation } from "@/components/Navigation"
 import Hero from "@/components/Hero"
-// import Who from "@/components/Who"
-// import Techs from "@/components/Techs"
-// import Comment from "postcss/lib/comment"
-// import Comments from "@/components/Comments"
+import Who from "@/components/Who"
+import Techs from "@/components/Techs"
+import Comments from "@/components/Comments"
 // import Client from "@/components/Client"
 // import Contact from "@/components/Contact"
 // import Footer from "@/components/Footer"
@@ -19,8 +18,11 @@ import Hero from "@/components/Hero"
 export default function Home() {
   return (
     <div>
-    <Nav></Nav>  
-    <Hero></Hero>     
+    <Navigation />
+    <Hero />
+    <Who /> 
+    <Techs />
+    <Comments />        
     </div>  
   )
 }
