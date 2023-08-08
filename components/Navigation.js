@@ -24,12 +24,27 @@ export const Navigation = () => {
         setShowDiv((prevShowDiv) => !prevShowDiv);
     };
 
+    const scroll2El = elID => {
+        window.scrollTo({
+          top: document.getElementById(elID).offsetTop - 60,
+          behavior: 'smooth',
+        });
+      };
+    
+    const onBtnClick = (e) => {
+        e.preventDefault();
+        const goto = e.target.getAttribute('goto');
+        setTimeout(() => {
+          scroll2El(goto);
+        }, 100);
+      }
+
     return (
         <>
             <nav className="flex items-center flex-wrap p-3 ">
                 <Link legacyBehavior href="/">
                     <a className="inline-flex items-center p-2 w-28 lg:ml-[90px] lg:w-[228px]">
-                        <img src="AAxon Logo.png"></img>
+                        <img src="/AAxon Logo.png"></img>
                     </a>
                 </Link>
                 <button
