@@ -5,9 +5,9 @@ import Hero from "@/components/Hero"
 import Who from "@/components/Who"
 import Techs from "@/components/Techs"
 import Comments from "@/components/Comments"
-// import Client from "@/components/Client"
-// import Contact from "@/components/Contact"
-// import Footer from "@/components/Footer"
+import Client from "@/components/Client"
+import Contact from "@/components/Contact"
+import Footer from "@/components/Footer"
 // import Services from "@/components/Services"
 // import { CirclularComponent } from "@/components/CirclularComponent"
 // import Testing from "@/components/Testing"
@@ -23,6 +23,9 @@ export default function Home() {
     <Who /> 
     <Techs />
     <Comments />        
+    <Client />
+    <Contact />
+    <Footer />
     </div>  
   )
 }

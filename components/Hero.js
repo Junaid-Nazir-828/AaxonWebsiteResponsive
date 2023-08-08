@@ -5,7 +5,7 @@ export default function Hero() {
                 <div className="absolute bottom-0 inset-x-0 xl:h-full xl:w-[1279px]">
                     <div className="xl:absolute xl:bg-[#F2B243E5] xl:-ml-[450px] xl:rotate-[55deg] xl:h-[1200px] xl:w-[1679px] xl:opacity-90"></div>
                     <div className="xl:relative flex flex-col">                        
-                        <div className="bg-[#F2B243E5] order-last text-[20px] font-semibold xl:bg-inherit xl:absolute xl:h-[297px] xl:w-[776px] xl:top-[226px] xl:left-[155px] xl:font-bold xl:text-[57px] xl:leading-[65px] xl:tracking-[0.02em] text-center xl:text-left xl:text-[#0C0B08]">                            
+                        <div className="bg-[#F2B243E5] order-last sm:text-[20px] font-semibold xl:bg-inherit xl:absolute xl:h-[297px] xl:w-[776px] xl:top-[226px] xl:left-[155px] xl:font-bold xl:text-[57px] xl:leading-[65px] xl:tracking-[0.02em] text-center xl:text-left xl:text-[#0C0B08]">                            
                             <p className="">
                                 EMPOWERING<br></br>
                                 <span className="xl:text-white"> BUSINESSES</span>{" "}

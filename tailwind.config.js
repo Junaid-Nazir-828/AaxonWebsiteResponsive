@@ -18,7 +18,12 @@ module.exports = {
         nunito:["Poppins","Roboto"],
       },
       backgroundImage: {
-        'map': "url('../public/map.png')",
+        'map': "url('/map.png')",
+        'whoBg':"url('/who-bg.svg')",
+        'techBg':"url('/Group 25.svg')",
+        'clientBg':"url('/client-bg.svg')",
+        'contactBg':"url('/contact-bg.svg')",
+        'footerBg':"url('/footer-bg.svg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

@@ -3,7 +3,7 @@ export default function Comments() {
         <section>
             <div className="pb-32 flex justify-center bg-map bg-[#F2B243F2] opacity-95 relative">
                 <div className="">
-                    <div className="text-center text-primary mt-24 font-bold md:text-[46px] text-[28px] leading-[65px] tracking-[0.02em]">
+                    <div className="text-center text-primary mt-24 font-bold md:text-[46px] text-[28px] leading-[65px] tracking-[0.02em] mx-8">
                         <p>
                             WHAT <span className="text-white">EVERYONE</span>{" "}
                             SAY ABOUT US

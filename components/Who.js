@@ -1,19 +1,13 @@
 export default function Who() {
     return (
-        <section className="relative bg-red-100">
-            <div className="absolute right-0 bg-orange-200">
-                <img src="Group 24.svg"></img>
-            </div>
-            <div className="absolute">
-                <img src="Group 26.svg"></img>
-            </div>
-            <div className="flex items-center justify-center h-[95vh]">
-                <div className="relative w-3/4 text-center pb-12 text-primary rounded-[24px] shadow-[0px_4px_4px_0px_#00000040] bg-[#FCFCFC]">
+        <section className="bg-whoBg w-full bg-cover bg-no-repeat">            
+            <div className="flex items-center justify-center">
+                <div className="relative w-3/4 text-center pb-12 text-primary rounded-[24px] shadow-[0px_4px_4px_0px_#00000040] bg-[#FCFCFC] my-24">
                     <div>
                         <div className="font-bold md:text-[46px] text-[30px] leading-[65px] tracking-[0.02em] pt-12">
                             WHO <span className="text-[#F2B243]">WE</span> ARE
                         </div>
-                        <div className="md:mx-16 md:mt-16 md:text-[20px] text-[16px] mx-8 mt-4">
+                        <div className="md:mx-16 md:mt-16 md:text-[20px] text-[14px] mx-8 mt-4">
                             At AAxon Solutions , we are a dynamic team of
                             passionate professionals dedicated to empowering
                             businesses with innovative technology solutions. Our
