@@ -18,6 +18,7 @@ module.exports = {
         nunito:["Poppins","Roboto"],
       },
       backgroundImage: {
+        'logo':"url('/AAxon logo.png')",
         'map': "url('/map.png')",
         'whoBg':"url('/who-bg.svg')",
         'techBg':"url('/Group 25.svg')",

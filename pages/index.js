@@ -17,7 +17,7 @@ import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-[1600px]">
     <Navigation />
     <Hero />
     <Who /> 
