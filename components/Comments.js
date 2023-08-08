@@ -11,7 +11,7 @@ export default function Comments() {
                     </div>
 
                     <div>
-                        <div className="mt-24 grid xl:grid-cols-3 xl:gap-x-8 xl:gap-y-8 md:grid-cols-2 md:gap-x-8 md:gap-y-8 grid-cols-1 gap-y-8 mx-40">
+                        <div className="mt-24 grid xl:grid-cols-3 xl:gap-x-8 xl:gap-y-8 md:grid-cols-2 md:gap-x-8 md:gap-y-8 grid-cols-1 gap-y-8 lg:mx-40 mx-20">
                             {/* upper block */}
                             <div className=" rounded-[24px] px-[31px] py-[25px] shadow-[2px_15px_15px_0px_#00000017] bg-white">
                                 {/* picture and title */}
