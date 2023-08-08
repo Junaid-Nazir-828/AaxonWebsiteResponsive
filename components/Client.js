@@ -1,7 +1,7 @@
 export default function Client(){
     return(
         <section>
-            <div className="bg-[#F6F6F6] bg-clientBg bg-no-repeat bg-cover shadow-[0px_-8px_8px_0px_#00000017] pb-28">
+            <div className="bg-[#F6F6F6] lg:bg-clientBg lg:bg-no-repeat lg:bg-cover shadow-[0px_-8px_8px_0px_#00000017] lg:pb-28">
                 <div className="text-center font-bold md:text-[46px] text-[28px] leading-[65px] tracking-[0.02em] text-primary pt-12 mx-8">
                     <p>OUR <span className="text-[#F2B243]">CLIENTS</span> THAT TRUST US</p>
                 </div>

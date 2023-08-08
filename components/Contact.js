@@ -1,7 +1,7 @@
 export default function Contact() {
     return (
         <section>
-            <div className="bg-contactBg bg-no-repeat bg-cover shadow-[0px_8px_8px_0px_#00000017] border-[1.5px] text-center overflow-hidden">
+            <div className="lg:bg-contactBg lg:bg-no-repeat lg:bg-cover shadow-[0px_8px_8px_0px_#00000017] border-[1.5px] text-center overflow-hidden">
                 {/* Div for strips*/}
                 {/* */}
                 <div className="">

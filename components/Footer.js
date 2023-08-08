@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <section className="">
             <div className="bg-[#343434] bg-footerBg bg-no-repeat">                
-                <div className="flex flex-wrap pt-10 justify-center gap-x-16">
+                <div className="flex flex-wrap pt-10 justify-evenly gap-x-4">
                     <div className="mx-2 mb-12">                                                
                         <div className="pt-12 md:w-[325px] w-40">
                             <img src="AaxonLogoTransparent.png"></img>
@@ -56,7 +56,7 @@ export default function Footer() {
                             <div className="bg-[#91928E] h-[2px] w-full mt-2"></div>                            
                         </div>
                     </div>
-                    <div className="md:w-[445px] md:h-[431px] w-[300px] h-[300px] bg-gray-100 mb-8 mx-2"></div>
+                    <div className="md:w-[350px] md:h-[361px] w-[300px] h-[300px] bg-gray-100 mb-8 mx-2"></div>
                 </div>
             </div>
         </section>
