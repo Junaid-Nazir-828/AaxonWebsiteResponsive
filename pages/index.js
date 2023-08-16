@@ -8,6 +8,7 @@ import Comments from "@/components/Comments"
 import Client from "@/components/Client"
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
+import Map from "@/components/Map"
 // import Services from "@/components/Services"
 // import { CirclularComponent } from "@/components/CirclularComponent"
 // import Testing from "@/components/Testing"
@@ -20,12 +21,12 @@ export default function Home() {
     <div className="max-w-[1600px]">
     <Navigation />
     <Hero />
-    <Who /> 
+    <Who />
     <Techs />
-    <Comments />        
+    <Comments />
     <Client />
     <Contact />
-    <Footer />
+    <Footer />    
     </div>  
   )
 }
